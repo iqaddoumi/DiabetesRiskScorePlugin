@@ -1,4 +1,4 @@
-from calc_plugin import CalculatorPlugin
+from .calc_plugin import CalculatorPlugin
 
 
 class AdditionPlugin(CalculatorPlugin):

@@ -21,3 +21,5 @@ class CalculatorPlugin(ABC):
     @abstractmethod
     def calculate(self, params: Dict[str, any]) -> any:
         pass
+
+
