@@ -1,4 +1,5 @@
-from .calc_plugin import CalculatorPlugin
+from typing import List, Dict
+from .Base_Calc_Plugin import CalculatorPlugin
 
 
 class AdditionPlugin(CalculatorPlugin):
